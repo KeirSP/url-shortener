@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>short.ly</title>
+    <link rel="stylesheet" href= "{{ url_for('static', filename='/css/app.css') }}"/>
+</head>
+<body>
+    <div>
+        <section>short.ly</section>
+    </div>
+    <div class="newURL">
+        <p>Your new, shorter url:</p>
+        <div class="link">
+        <a href="http://localhost:5000/{{ url.id }}"> http://localhost:5000/{{ url.id }} </a>
+        </div>
+    </div>
+</body>
+</html>

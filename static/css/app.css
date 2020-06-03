@@ -1,0 +1,44 @@
+.body {
+    background-color: rgba(86, 87, 88, 0.192);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+@keyframes scroll {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+body {
+    background: linear-gradient(270deg, #ca91fc, #f0be60, #8bcff2);
+    background-size: 600% 600%;
+
+    animation: scroll 30s ease infinite;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 50vh;
+    font-family: 'Roboto', sans-serif;
+    margin: 20px
+}
+
+.shortener {
+    padding-right: 15px
+}
+
+.newURL {
+    margin: 20px;
+    background-color: rgba(86, 87, 88, 0.192);
+    padding: 15px;
+}
+
+section {
+    font-size: 2.5rem;
+    margin: 20px;
+}
